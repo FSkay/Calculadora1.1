@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
             int iResultado = iOp1 + iOp2;
 
             String sResultado = String.valueOf(iResultado);
+            tvResultado.setText(sResultado);
 
         }catch (Exception e ){
             tvResultado.setText(e.toString());
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
             int iResultado = iOp1 - iOp2;
 
             String sResultado = String.valueOf(iResultado);
+            tvResultado.setText(sResultado);
 
         }catch (Exception e ){
             tvResultado.setText(e.toString());
